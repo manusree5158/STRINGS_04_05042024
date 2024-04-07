@@ -1,0 +1,73 @@
+1.Consider the following program:
+public class Test {
+    public static void main(String[] args) {
+        String str = null;
+        System.out.println(str.valueOf(10));
+    }
+}
+Which of the following statements correctly describes the behavior of this program?
+a) This program will result in a compiler error.
+b) This program will throw a NullPointerException.
+c) This program will print 10 in the console.
+d) This program will print null in the console.
+
+Answer:c
+ 
+2.Consider the following program and predict the output:
+public class Test {
+    public static void main(String[] args) {
+        String s = new String("5");
+        System.out.println(1 + 10 + s + 1 + 10);
+    }
+}
+a) 11511
+b) 1105110
+c) 115110
+d) 27 
+
+Answer:c
+
+3.Select all the classes that extend the String class
+a) StringBuffer
+b) StringBuilder
+c) StringWriter
+d) None
+
+Answer:d
+
+4.What is the output of the following code snippet?
+public class Main {
+    public static void main(String[] args) {
+        String str = "Java";
+        str.concat(" Programming");
+        System.out.println(str);
+    }
+}
+a) Java
+b) Java Programming
+c) Programming
+d) Compile-time error
+
+Answer:a
+
+5.What is the result of the following code?
+String s1 = "Java";
+String s2 = "Java";
+StringBuilder sb1 = new StringBuilder();
+sb1.append("Ja").append("va");
+System.out.println(s1 == s2);
+System.out.println(s1.equals(s2));
+System.out.println(sb1.toString() == s1);
+System.out.println(sb1.toString().equals(s1));
+A. true is printed out exactly once.
+B. true is printed out exactly twice.
+C. true is printed out exactly three times.
+D. true is printed out exactly four times.
+E. The code does not compile
+
+ Answer:c
+
+
+
+
+
